@@ -2,7 +2,7 @@
 title: "Telco Customer Churn Prediction with XAI"
 date: 2025-04-22
 tags: ["Machine Learning", "Python", "XAI", "Churn Analysis", "Jupyter Notebook", "Data Science", "Predictive Analytics", "SHAP", "LIME"]
-#featured_image: "/img/telco_churn.png"
+featured_image: "img/telco_churn.png"
 # link: "URL_PARA_GITHUB_OU_NOTEBOOK"
 ---
 
