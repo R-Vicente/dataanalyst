@@ -6,7 +6,7 @@ window.projectMarkdowns = {
 title: "Hospital KPI Dashboard (MGH)"
 date: 2025-04-21
 tags: ["Power BI", "Dashboard", "KPIs", "Healthcare Analytics", "Data Visualization", "ETL", "DAX"]
-featured_image: "C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/dash1.png"
+featured_image: "img/dash1.png"
 ---
 
 ## Tools & Technologies
