@@ -57,7 +57,7 @@ I approached this churn prediction challenge with a dual focus – getting accur
 
 My first dive into the data revealed that about 26% of customers were churning – a significant chunk of business walking out the door! I found that customer traits like contract type (month-to-month vs. annual), service offerings, and payment methods painted different pictures of churn risk. The biggest red flags? Monthly contracts, fiber optic service, and electronic payment methods all seemed to be sending customers for the exit.
 
-![Data Exploration Screenshot](/img/aed-churn1.png)
+![Data Exploration Screenshot](img/aed-churn1.png)
 *(Caption: Exploratory data analysis showing churn distribution.)*
 
 ![Data Exploration Screenshot](/img/rfa-churn.png)
