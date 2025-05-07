@@ -31,7 +31,7 @@ I organized the dashboard into distinct pages, each telling a different part of 
 
 This is the "hospital vital signs" page! At a glance, you can see the big numbers: **Total Admissions (27.89K)**, **Unique Patients (974)**, **Average Admission Time (7h 15min)**, and **Average Admission Cost ($3.64K)**. I also included charts showing when patients tend to arrive by month, day, and hour – perfect for spotting those Monday morning rushes or seasonal trends.
 
-![Dashboard Overview Page Screenshot](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/dash1.png)
+![Dashboard Overview Page Screenshot](img/dash1.png)
 *(Caption: Main overview page showing high-level KPIs and admission trends.)*
 
 
@@ -39,28 +39,28 @@ This is the "hospital vital signs" page! At a glance, you can see the big number
 
 Here's where we dive into what actually happens in the hospital. This page shows the **Total Procedures performed (47.70K)** and breaks down procedure patterns. I created heatmaps showing when different procedures happen throughout the day and week, and highlighted the **Top 10 most frequent procedures** to show where the hospital's resources are going.
 
-![Procedure Volume and Cost Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/dash2.png)
+![Procedure Volume and Cost Analysis](img/dash2.png)
 *(Caption: Analysis of procedure frequency, costs, and timing patterns.)*
 
 ### 3. Financial Analysis
 
 Follow the money! This view breaks down the hospital's **Total Revenue ($101.51M)**, showing how much comes from insurance ($31.10M) versus patients ($70.42M). I also highlighted the cash cows – those **Top 5 procedures with the highest average cost** – and analyzed insurance coverage patterns that revealed some surprising variations between payers.
 
-![Financial Performance and Insurance Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/dash3.png)
+![Financial Performance and Insurance Analysis](img/dash3.png)
 *(Caption: Breakdown of revenue sources, high-cost procedures, and insurance payer coverage.)*
 
 ### 4. Alerts & Outliers
 
 This is the "things that make you go hmm" page. I designed it to automatically flag potential issues that executives should investigate, from admissions without procedures to the somewhat alarming **Death Rate (15.81%)**. The dashboard also connects the dots between admission types, primary diagnoses, and mortality – information that could literally help save lives.
 
-![Alerts and Outlier Identification Page](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/dash4.png)
+![Alerts and Outlier Identification Page](img/dash4.png)
 *(Caption: Dashboard view focused on identifying potential operational alerts and outliers.)*
 
 ### 5. AI & Forecasts
 
 What's coming next? Using Power BI's AI capabilities, I created **forecasts for future admissions and revenue**, and analyzed what factors are driving patient volume (like age groups and insurance types). This helps the hospital prepare for what's coming instead of just reacting to yesterday's numbers.
 
-![AI-driven Forecasts and Key Influencers](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/dash5.png)
+![AI-driven Forecasts and Key Influencers](img/dash5.png)
 *(Caption: Forecasted trends for admissions/revenue and analysis of key influencing factors.)*
 
 ## Challenges & Learning
@@ -84,7 +84,7 @@ Want to click around this dashboard yourself? I'd be happy to share an interacti
 title: "Telco Customer Churn Prediction with XAI"
 date: 2025-04-22
 tags: ["Machine Learning", "Python", "XAI", "Churn Analysis", "Jupyter Notebook", "Data Science", "Predictive Analytics", "SHAP", "LIME"]
-featured_image: "C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/resource-churn.png"
+featured_image: "img/resource-churn.png"
 ---
 
 ## Tools & Technologies
@@ -138,17 +138,17 @@ I approached this churn prediction challenge with a dual focus – getting accur
 
 My first dive into the data revealed that about 26% of customers were churning – a significant chunk of business walking out the door! I found that customer traits like contract type (month-to-month vs. annual), service offerings, and payment methods painted different pictures of churn risk. The biggest red flags? Monthly contracts, fiber optic service, and electronic payment methods all seemed to be sending customers for the exit.
 
-![Data Exploration Screenshot](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/aed-churn1.png)
+![Data Exploration Screenshot](img/aed-churn1.png)
 *(Caption: Exploratory data analysis showing churn distribution.)*
 
-![Data Exploration Screenshot](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/rfa-churn.png)
+![Data Exploration Screenshot](img/rfa-churn.png)
 *(Caption: Exploratory data analysis showing churn distribution across key variables.)*
 
 ### 2. Model Comparison
 
 After putting several machine learning algorithms through their paces, Gradient Boosting emerged as the champion with an AUC-ROC of 0.8415 (that's pretty good!). After some fine-tuning, the final model achieved 78% accuracy and 59% precision on test data – meaning it could identify a substantial portion of churners without too many false alarms.
 
-![Model Performance Comparison](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/models-churn2.png)
+![Model Performance Comparison](img/models-churn2.png)
 *(Caption: Performance metrics comparison across different machine learning algorithms.)*
 
 ### 3. Feature Importance
@@ -162,14 +162,14 @@ So what actually drives customers away? The model pointed to five key factors:
 
 These insights give clear targets for retention strategies.
 
-![Feature Importance Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/fi-churn.png)
+![Feature Importance Analysis](img/fi-churn.png)
 *(Caption: Key features driving customer churn according to the model.)*
 
 ### 4. XAI: Understanding Individual Predictions
 
 This is where things got really interesting. Using SHAP and LIME techniques, I could see exactly why the model predicted churn for specific customers. For example, I could tell that Customer #1372's month-to-month contract and short tenure were pushing their churn probability up, while their paperless billing was slightly reducing it. This level of transparency turns a "black box" prediction into actionable customer intelligence.
 
-![SHAP Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/shap-churn.png)
+![SHAP Analysis](img/shap-churn.png)
 *(Caption: SHAP analysis showing how specific customer attributes impact churn prediction.)*
 
 ### 5. Customer Risk Segmentation
@@ -182,7 +182,7 @@ I segmented customers into four risk tiers based on their likelihood to churn:
 
 This segmentation lets companies target their retention efforts where they'll have the biggest impact.
 
-![Risk Segmentation](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/seg-churn.png)
+![Risk Segmentation](img/seg-churn.png)
 *(Caption: Visualization of customer segments by churn risk level.)*
 
 ### 6. Strategic Recommendations
@@ -208,7 +208,7 @@ So what's the actual bottom-line impact of all this data science wizardry?
 * **Escalating Returns:** Pushing from a 5% to 20% reduction in churn would more than triple the financial benefit (from $12K to $45K annually), making a solid business case for investing in these retention programs.
 * **Customer Value Preservation:** Hitting that 20% reduction target would keep about 40 valuable customers from walking away each year – customers who might otherwise be lost forever.
 
-![Risk Segmentation](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/img/impact-churn.png)
+![Risk Segmentation](img/impact-churn.png)
 *(Caption: Projected Revenue Impact of Retention Strategies Based on Actual Customer Spending Data.)*
 
 ### Operational Benefits
@@ -217,7 +217,7 @@ So what's the actual bottom-line impact of all this data science wizardry?
 * **Marketing Efficiency:** More precise targeting means better allocation of acquisition versus retention budgets, potentially reducing the cost of keeping the customer base growing.
 
 
-![Business Impact Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/resource-churn.png)
+![Business Impact Analysis](img/resource-churn.png)
 
 
 ## Storytelling & Stakeholder Communication
@@ -317,7 +317,7 @@ Want to see how the sausage is made? The complete Jupyter Notebook with all anal
 title: "Staff Scheduling Optimization Model"
 date: 2025-04-23
 tags: ["Operations Research", "Linear Programming", "Python", "PuLP", "Workforce Optimization", "Call Center Management", "Schedule Planning"]
-featured_image: "C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/schedules.jpg"
+featured_image: "img/schedules.jpg"
 ---
 
 ## Project Goals
@@ -350,7 +350,7 @@ Ever wonder how call centers decide exactly how many people they need working at
 
 This wasn't just about filling in a spreadsheet. The challenge involved figuring out the optimal number of agents for each shift type and day-off pattern while ensuring coverage for every single 30-minute interval in the month. With 14 different shift types (12 full-time and 2 part-time) and 7 different day-off patterns, we're talking about 98 different staff assignment options and over 1,400 time intervals to cover. That's a lot of moving pieces!
 
-![Demand Pattern Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/formulation-sche.png)
+![Demand Pattern Analysis](img/formulation-sche.png)
 *(Caption: Optimization problem - Mathematical Formulation.)*
 
 #### Example Solution Highlights:
@@ -366,40 +366,40 @@ This wasn't just about filling in a spreadsheet. The challenge involved figuring
 
 Call centers are fascinating - one minute they're quiet, the next minute everyone and their grandmother is calling! My analysis revealed dramatic swings in staffing needs throughout the day and across different days of the week. During peak times, we needed up to 10 agents simultaneously, while during quiet periods, we could get by with minimal coverage. These fluctuations are exactly why smart scheduling matters – putting the right number of people in the right place at the right time.
 
-![Demand Pattern Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/demand_patterns.png)
+![Demand Pattern Analysis](img/demand_patterns.png)
 *(Caption: Visualization of half-hourly staffing requirements showing daily and weekly patterns.)*
 
 ### 3. Optimization Results
 
 After crunching the numbers, the model delivered a beautiful solution: 25 agents (not 24, not 26, but exactly 25) distributed across 11 different shift types and all 7 day-off patterns. This schedule achieved 100% coverage of all required staffing levels while keeping the total scheduled work hours to a lean 4,367 hours per month. That's optimization in action!
 
-![Optimization Results](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/optimization_results.png)
+![Optimization Results](img/optimization_results.png)
 *(Caption: Summary of optimization results showing headcount allocation by shift type and day-off pattern.)*
 
 ### 4. Coverage Analysis
 
 The coolest part? The resulting schedule provided perfect coverage at all times – no understaffing anywhere. Yes, there was some strategic overstaffing at certain periods (up to 9 extra agents during some intervals), but that's often unavoidable due to shift structures. The key is that the model minimized this excess while ensuring service levels never dropped below requirements.
 
-![Coverage Analysis](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/coverage_analysis.png)
+![Coverage Analysis](img/coverage_analysis.png)
 *(Caption: Comparison of required versus scheduled staffing levels across the planning period.)*
 
 ### 5. Shift Distribution
 
 Out of 14 possible shift types, the model selected 11 as optimal. Some shifts just weren't efficient for this particular demand pattern, so the algorithm naturally avoided them. The model also found clever combinations of shifts and day-off patterns that minimized total work hours while covering all requirements.
 
-![Shift Distribution](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/shift_distribution.png)
+![Shift Distribution](img/shift_distribution.png)
 *(Caption: Distribution of agents across different shift types showing which time slots were most efficient.)*
 
 This graph shows how efficiently agents are allocated throughout the day. The bars represent the number of required agents (blue) and surplus agents (orange), while the red line shows the resource utilization rate (percentage of scheduled agents that are actually required). Higher percentages indicate more efficient resource allocation, with fewer excess agents scheduled.
 
-![Shift Distribution](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/efficiency.png)
+![Shift Distribution](img/efficiency.png)
 
 
 ### 6. Implementation Strategy
 
 Math is great, but people need to know what to do with it! I translated the optimization results into a detailed implementation strategy that specifies exactly how many agents should work each shift type with each day-off pattern. This is the actionable staffing plan that workforce management can actually use to make hiring and scheduling decisions.
 
-![Implementation Strategy](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/implementation_strategy.png)
+![Implementation Strategy](img/implementation_strategy.png)
 *(Caption: Detailed staffing plan showing the exact number of agents for each shift type and day-off pattern.)*
 
 ## Business Impact
@@ -482,7 +482,7 @@ Want to see how it all works under the hood? The complete Jupyter Notebook with 
 title: "Time Series Forecasting for Call Center Operations"
 date: 2025-04-24
 tags: ["Time Series Analysis", "Python", "Forecasting", "Machine Learning", "Random Forest", "Data Visualization", "Operations Research", "Workforce Planning"]
-featured_image: "C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/forecast.jpg"
+featured_image: "img/forecast.jpg"
 ---
 
 ## Project Goals
@@ -516,17 +516,17 @@ Ever wonder how call centers know exactly how many staff they'll need next Tuesd
 
 First, I needed to understand what drives call volumes. The exploration revealed fascinating patterns - clear weekly cycles with Monday peaks, surprising summer spikes in July, and interesting holiday effects. The data showed an overall upward trend with 19.65% growth over four years and significant day-of-week variations.
 
-![Daily Call Volume](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/daily_call_volume.png)
+![Daily Call Volume](img/daily_call_volume.png)
 *(Caption: Four years of daily call volume showing clear growth trend and seasonal patterns.)*
 
 The weekly pattern was particularly striking - call volumes on weekdays averaged 3,315 more calls than weekends, with Mondays consistently being the busiest day. This alone suggests staffing should be significantly higher at the start of the week.
 
-![Day of Week Pattern](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/day_of_week_pattern.png)
+![Day of Week Pattern](img/day_of_week_pattern.png)
 *(Caption: Average call volume by day of week, showing Monday peaks and weekend valleys.)*
 
 Monthly patterns revealed July as the busiest month, while November showed the highest variability - suggesting a need for more flexible staffing during holiday seasons.
 
-![Monthly Call Pattern](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/monthly_call_pattern.png)
+![Monthly Call Pattern](img/monthly_call_pattern.png)
 *(Caption: Month-by-month comparison showing seasonal patterns and year-over-year growth.)*
 
 ### 2. Engineering Predictive Features
@@ -541,7 +541,7 @@ To capture these complex patterns, I engineered a rich set of features:
 
 The time series decomposition clearly separated the trend, seasonal, and residual components, confirming both weekly cycles and longer annual patterns.
 
-![Time Series Decomposition](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/time_series_decomposition.png)
+![Time Series Decomposition](img/time_series_decomposition.png)
 *(Caption: Decomposition of call volume into trend, seasonal, and residual components.)*
 
 ### 3. Model Comparison
@@ -553,7 +553,7 @@ I implemented multiple forecasting approaches, each with different strengths:
 
 After rigorous testing on unseen 2024 data, Random Forest emerged as the clear winner with the lowest Mean Absolute Percentage Error (MAPE) of 11.78% and Mean Absolute Error (MAE) of 871.32 calls.
 
-![Model Comparison](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/img/model_comparison.png)
+![Model Comparison](img/model_comparison.png)
 *(Caption: Performance comparison of forecasting models on test data, showing Random Forest's superior accuracy.)*
 
 The Random Forest model excelled particularly at capturing the complex interactions between different seasonal patterns and special events, without overfitting to noise in the historical data.
@@ -562,7 +562,7 @@ The Random Forest model excelled particularly at capturing the complex interacti
 
 One of the benefits of using Random Forest is its built-in feature importance metrics. This analysis revealed that recent historical values (lag features) and day-of-week indicators were the most predictive, followed by monthly patterns.
 
-![Feature Importance](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/rf_feature_importance.png)
+![Feature Importance](img/rf_feature_importance.png)
 *(Caption: Top 10 features driving forecast accuracy in the Random Forest model.)*
 
 This insight helps operations teams understand what drives call volumes - primarily recent history, weekly cycles, and longer seasonal patterns.
@@ -571,19 +571,19 @@ This insight helps operations teams understand what drives call volumes - primar
 
 Using the best-performing Random Forest model, I generated predictions for the next three months, including expected daily call volumes and confidence intervals.
 
-![Future Forecast](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/future_forecast_rf.png)
+![Future Forecast](img/future_forecast_rf.png)
 *(Caption: Three-month forecast of daily call volumes with expected peaks and valleys.)*
 
 The forecast highlighted expected peak days and minimum volume days, helping operations teams plan resource allocation efficiently. A heatmap visualization made it easy to spot patterns across days and weeks.
 
-![Forecast Heatmap](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/forecast_heatmap_rf.png)
+![Forecast Heatmap](img/forecast_heatmap_rf.png)
 *(Caption: Heatmap of forecasted call volumes by day of week and week number.)*
 
 ### 6. Staffing Recommendations
 
 Finally, I translated the call volume forecasts into practical staffing recommendations, assuming a certain number of calls that each agent can handle per day.
 
-![Staffing Recommendations](C:/Users/Ricardo Vicente/Desktop/Stuff/Documentos pessoais/Portfolio/port/img/weekly_staffing_rf.png)
+![Staffing Recommendations](img/weekly_staffing_rf.png)
 *(Caption: Recommended agent staffing levels by day of week based on forecasted call volumes.)*
 
 This creates a direct bridge from data science to operational decisions, showing exactly how many agents are needed each day to maintain service levels while minimizing costs.
